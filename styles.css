@@ -1,0 +1,124 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+    margin: 0;
+    /* border: 2px solid white; */
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: #000;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.screen {
+    background-color: #444;
+    color: #11ad40;
+    font-size: 2.5rem;
+    text-align: right;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.keyboard {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.button {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 1px solid hsl(0, 100%, 99%);
+    cursor: pointer;
+    user-select: none;
+}
+
+.button.operator {
+    background-color: #ff9500;
+    color: #fff;
+}
+
+.button:hover {
+    background-color: #666;
+}
+
+.button.operator:hover {
+    background-color: #ffb84d;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+    margin: 0;
+    /* border: 2px solid white; */
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: #000;
+    color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 2px solid rgb(212, 183, 14);
+}
+
+.screen {
+    background-color: #444;
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: right;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.keyboard {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.button {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 1px solid #333;
+    cursor: pointer;
+    user-select: none;
+}
+
+.button.operator {
+    background-color: #ff9500;
+    color: #fff;
+}
+
+.button:hover {
+    background-color: #666;
+}
+
+.button.operator:hover {
+    background-color: #ffb84d;
+}
